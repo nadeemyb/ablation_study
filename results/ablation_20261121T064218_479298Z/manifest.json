@@ -1,0 +1,35 @@
+{
+  "python": "3.12.10 (tags/v3.12.10:0cc8128, Apr  8 2025, 12:21:36) [MSC v.1943 64 bit (AMD64)]",
+  "executable": "D:\\DP paper working\\PBAC_DP_Besu_Experiment_READY_v6\\.venv\\Scripts\\python.exe",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "matplotlib": "3.11.2",
+  "timestamp_utc": "2026-11-21T06:42:20.014016+00:00",
+  "checks": {
+    "grid_count": 135,
+    "independent_integer_arithmetic_matches": 135,
+    "monotone_contexts": 162
+  },
+  "sources": {
+    "run_ablation.py": "2703543a5879fe72978ee9f721007dc444be62c3c5b9d72579f07232edbb4d9a",
+    "benchmark\\test_epsilon_model.py": "58cc1876237de80014a3bebb388a6b5933f3953c62066487be2e9cadde492e1a",
+    "contracts\\HealthcareConsentDP_Final.sol": "8b5ae6c6a52f7e1572ee01bcfe2ab5a7ed65c4270bb5120d80c2ca497e8b0c36",
+    "docs\\01_WORKFLOW_AND_EQUATIONS.md": "20dc2eaa4a2d0e08bacf9adfeebdaa9caaca807dd5cab678fd41486845213686",
+    "docs\\02_RESULTS_PROVENANCE.md": "1a7981669369429802f60fc6ddcba8ddfecefd42422b9fa6ec342c0bd0eeece3",
+    "docs\\03_RUNBOOK.md": "1ef2a784fb1536a6d59636c75ab94545cf1aa54c0a10447d5bc1f5ff443a6e18",
+    "docs\\04_REAUDIT_REPORT.md": "716d9f5ededa05ec88747cf3b37440e37c28a5c8961e138c923d13a1b4967f71",
+    "docs\\05_ABBREVIATIONS.md": "67f2f5ee01d74c93294f4429fefa119a4aed8c588318e292e54a4602eae23678",
+    "docs\\06_REFERENCES_TO_CITE.md": "e1f227bdee06ecf3493a884cd182163ad6c49da9b2c172923d22cc27dbb2fae3",
+    "docs\\07_SMOKE_TEST_PROTOCOL.md": "119785a565ffae2d896c7b9ab4d154426fbe39612db6494db9763dac922f703b",
+    "docs\\08_CHECKPOINT_PARALLELISM_AND_RESULTS.md": "35fc18738831fe76b35bfbe6b4103f6d47dfa71fc700b9097d9c00b4bbffbd71"
+  },
+  "outputs": {
+    "baseline_sweeps.csv": "70dc6c0eeb7a73dbc051c554919f5d44ecfb9179d4f0cff470921c1d428935c1",
+    "factor_sensitivity.pdf": "acbfb08f433826f305dfdafc77d9b8f3c93fcc82c8af38808062869599a67c76",
+    "factor_sensitivity.png": "8e810d8566caa25cd6b2275fc011d276709d28dd6b0972ca97da88385919c08d",
+    "factor_sensitivity.svg": "241add6c4fb5741cefeafab0271ac7df6dd1f6920f049208bda152cbfb97dda4",
+    "factor_summary.csv": "f49dc8bee6b5d38ea5dd18344089072fdaa2e8230d5a564a3baaa3beed87f84d",
+    "full_grid.csv": "930d11d7e141f48bd596e5e30acd96aeee82e2660a84df60cce0a4d0a4157100",
+    "matched_factor_contrasts.csv": "4fec4769da4aacb603f6e0be19c0d16b43a8473539211aac630dcab6a8383ece",
+    "REPORT.md": "0cc69fc0adb27b65ce4f9e4777283029808855d8296317654303f95eb39c179b"
+  }
+}
