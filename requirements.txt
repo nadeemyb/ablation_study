@@ -1,0 +1,4 @@
+# Python >= 3.12 recommended (tested on 3.12)
+matplotlib>=3.8
+# All other imports used by run_ablation.py are from the Python standard library
+# (csv, hashlib, itertools, json, platform, statistics, sys, datetime, pathlib).

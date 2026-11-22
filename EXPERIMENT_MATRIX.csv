@@ -1,0 +1,33 @@
+experiment_group,consensus,n_records,workers,dp_mechanism,repetitions,purpose
+smoke_sequential,QBFT,5,1,Laplace,1,End-to-end logical correctness without concurrency
+smoke_parallel,QBFT,20,4,Laplace,1,Small parallel correctness and nonce/RPC/IPFS validation
+smoke_mini_consensus,CLIQUE,50,8,Laplace,1,Matched small-scale consensus/configuration check only
+smoke_mini_consensus,IBFT2,50,8,Laplace,1,Matched small-scale consensus/configuration check only
+smoke_mini_consensus,QBFT,50,8,Laplace,1,Matched small-scale consensus/configuration check only
+scalability,CLIQUE,50,128,Laplace,3,Consensus scalability
+scalability,CLIQUE,200,128,Laplace,3,Consensus scalability
+scalability,CLIQUE,500,128,Laplace,3,Consensus scalability
+scalability,CLIQUE,1000,128,Laplace,3,Consensus scalability
+scalability,IBFT2,50,128,Laplace,3,Consensus scalability
+scalability,IBFT2,200,128,Laplace,3,Consensus scalability
+scalability,IBFT2,500,128,Laplace,3,Consensus scalability
+scalability,IBFT2,1000,128,Laplace,3,Consensus scalability
+scalability,QBFT,50,128,Laplace,3,Consensus scalability
+scalability,QBFT,200,128,Laplace,3,Consensus scalability
+scalability,QBFT,500,128,Laplace,3,Consensus scalability
+scalability,QBFT,1000,128,Laplace,3,Consensus scalability
+load_sweep,CLIQUE,1000,16,Laplace,3,Find saturation/client bottleneck
+load_sweep,CLIQUE,1000,64,Laplace,3,Find saturation/client bottleneck
+load_sweep,CLIQUE,1000,128,Laplace,3,Find saturation/client bottleneck
+load_sweep,CLIQUE,1000,256,Laplace,3,Find saturation/client bottleneck
+load_sweep,IBFT2,1000,16,Laplace,3,Find saturation/client bottleneck
+load_sweep,IBFT2,1000,64,Laplace,3,Find saturation/client bottleneck
+load_sweep,IBFT2,1000,128,Laplace,3,Find saturation/client bottleneck
+load_sweep,IBFT2,1000,256,Laplace,3,Find saturation/client bottleneck
+load_sweep,QBFT,1000,16,Laplace,3,Find saturation/client bottleneck
+load_sweep,QBFT,1000,64,Laplace,3,Find saturation/client bottleneck
+load_sweep,QBFT,1000,128,Laplace,3,Find saturation/client bottleneck
+load_sweep,QBFT,1000,256,Laplace,3,Find saturation/client bottleneck
+dp_mechanism,QBFT,1000,128,Laplace,3,DP mechanism utility/performance
+dp_mechanism,QBFT,1000,128,Gaussian,3,DP mechanism utility/performance
+dp_mechanism,QBFT,1000,128,Exponential,3,DP mechanism utility/performance
